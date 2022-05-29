@@ -11,7 +11,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -32,7 +31,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park One"
+                    android:text="SENTIER LE SEIGNEURIAL - PARC NATIONAL DU MONT-SAINT-BRUNO"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
@@ -40,27 +39,29 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park One"
+                    android:text="Distance : 7 kilomètres"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginBottom="5dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park One"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginBottom="5dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:text="Niveau : facile"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park One"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginBottom="5dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:text="sepaq.com/pq/msb"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -82,7 +83,31 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park Two"
+                    android:text="BOUCLE PAR BURNED HILL, PAIN DE SUCRE, DIEPPE ET ROCKY - MONT SAINT-HILAIRE"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance : environ 11,5 kilomètres"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niveau : intermédiaire"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="gault.mcgill.ca/fr/randonnee-et-plein-air"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
@@ -91,7 +116,7 @@
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             app:cardCornerRadius="4dp"
             android:id="@+id/card3"
             tools:ignore="RedundantNamespace">
@@ -108,7 +133,31 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park Three"
+                    android:text="SENTIER LE HAUT-LIEU - MONT RIGAUD"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance : 13,5 kilomètres"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niveau : intermédiaire"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ville.rigaud.qc.ca"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
@@ -117,7 +166,7 @@
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             app:cardCornerRadius="4dp"
             android:id="@+id/card4"
             tools:ignore="RedundantNamespace">
@@ -134,7 +183,31 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park Four"
+                    android:text="4. L'ÎLE SAINTE-MARGUERITE - PARC NATIONAL DES ÎLES-DE-BOUCHERVILLE"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance : 7 kilomètres"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niveau : facile"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sepaq.com/pq/bou"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
@@ -143,7 +216,7 @@
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             app:cardCornerRadius="4dp"
             android:id="@+id/card5"
             tools:ignore="RedundantNamespace">
@@ -160,7 +233,31 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Park Five"
+                    android:text="5. LE SOMMET - PARC NATIONAL D’OKA"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance : 6,7 kilomètres"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niveau : intermédiaire"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sepaq.com/pq/oka"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"

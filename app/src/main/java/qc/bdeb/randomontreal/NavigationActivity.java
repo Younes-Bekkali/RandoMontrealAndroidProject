@@ -103,5 +103,13 @@ public class NavigationActivity extends AppCompatActivity {
         startActivity(intentToParks);
     }
 
+    public void onContact(){
+
+    }
+
+    public void onLoc(){
+
+    }
+
 
 }//end of the class
