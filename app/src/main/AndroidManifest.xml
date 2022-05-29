@@ -13,8 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandoMontreal"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactusActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Locationsctivity" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".EditBucketListActivity"
             android:exported="false" />

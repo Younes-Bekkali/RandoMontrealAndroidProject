@@ -11,11 +11,11 @@
         <item
             android:id="@+id/locations"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Locations" />
+            android:title="Montreal Locations" />
         <item
             android:id="@+id/parksgallery"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Parks" />
+            android:title="Favorite Parks" />
         <item
             android:id="@+id/contactus"
             android:icon="@drawable/ic_menu_slideshow"

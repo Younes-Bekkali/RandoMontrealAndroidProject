@@ -66,6 +66,28 @@ public class NavigationActivity extends AppCompatActivity {
             }
         });
 
+        //Menu to Locations
+        MenuItem menuItem3 = navigationView.getMenu().findItem(R.id.locations);
+        menuItem3.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                Intent intentMenuToLocations = new Intent(NavigationActivity.this, LocationActivity.class);
+                startActivity(intentMenuToLocations);
+                return true;
+            }
+        });
+
+        //Menu to Contact us
+        MenuItem menuItem4 = navigationView.getMenu().findItem(R.id.contactus);
+        menuItem4.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                Intent intentMenuToContact = new Intent(NavigationActivity.this, ContactusActivity.class);
+                startActivity(intentMenuToContact);
+                return true;
+            }
+        });
+
 
         //
         // Passing each menu ID as a set of Ids because each
@@ -103,12 +125,14 @@ public class NavigationActivity extends AppCompatActivity {
         startActivity(intentToParks);
     }
 
-    public void onContact(){
-
+    public void onContact(View view){
+        Intent intentToContact = new Intent(NavigationActivity.this, ContactusActivity.class);
+        startActivity(intentToContact);
     }
 
-    public void onLoc(){
-
+    public void onLoc(View view){
+        Intent intentToLocs = new Intent(NavigationActivity.this, LocationActivity.class);
+        startActivity(intentToLocs);
     }
 
 

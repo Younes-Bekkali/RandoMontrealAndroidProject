@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setWidgets();
-        startActivity(new Intent(MainActivity.this, NavigationActivity.class));
+//        startActivity(new Intent(MainActivity.this, NavigationActivity.class));
     }
 
     private void setWidgets() {
@@ -52,19 +52,19 @@ public class MainActivity extends AppCompatActivity {
         sb.append(password);
 
 
-        startActivity(new Intent(MainActivity.this, NavigationActivity.class));
-//        if (userName.equals(RefUserName) && password.equals(RefPassword)) {
-//
-//            sb.append("\nLogin ok");
-//            Toast.makeText(MainActivity.this, "Login ok", Toast.LENGTH_SHORT).show();
-//            txtMessage.setText(sb.toString());
-////            NavigateToNavigationIntent = new Intent(MainActivity.this, NavigationActivity.class);
-//            startActivity(new Intent(MainActivity.this, NavigationActivity.class));
-//        } else {
-//            sb.append("\nLogin failed");
-//            Toast.makeText(MainActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
-//            txtMessage.setText(sb.toString());
-//        }
+//        startActivity(new Intent(MainActivity.this, NavigationActivity.class));
+        if (userName.equals(RefUserName) && password.equals(RefPassword)) {
+//            if(true){
+            sb.append("\nLogin ok");
+            Toast.makeText(MainActivity.this, "Login ok", Toast.LENGTH_SHORT).show();
+            txtMessage.setText(sb.toString());
+//            NavigateToNavigationIntent = new Intent(MainActivity.this, NavigationActivity.class);
+            startActivity(new Intent(MainActivity.this, NavigationActivity.class));
+        } else {
+            sb.append("\nLogin failed");
+            Toast.makeText(MainActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
+            txtMessage.setText(sb.toString());
+        }
 
         clearFields();
     }

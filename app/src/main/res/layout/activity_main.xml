@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DFE3EE"
+    android:background="@drawable/bucket_background_gradient"
     tools:context=".MainActivity">
 
     <ImageView
@@ -33,6 +33,7 @@
         android:gravity="center"
         android:text="Login"
         android:textSize="24sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,14 +44,17 @@
         android:layout_width="206dp"
         android:layout_height="62dp"
         android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
         android:layout_marginTop="120dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:gravity="center"
         android:hint="User Name .."
         android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -61,10 +65,12 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="38dp"
         android:layout_marginEnd="160dp"
+        android:gravity="center"
         android:onClick="onLogin"
         android:text="Login"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
@@ -79,8 +85,10 @@
         android:gravity="center"
         android:hint="Password .."
         android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUserName" />
 
@@ -92,6 +100,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="174dp"
         android:layout_marginBottom="202dp"
+        android:gravity="center"
+        android:textColor="@color/white"
         android:hint="---"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
